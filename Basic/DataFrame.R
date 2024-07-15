@@ -19,3 +19,17 @@ NewRowDf
 #ColBind
 NewColDf<-cbind(Data_Frame,Steps=c(1000,2000,1500))
 NewColDf
+dim(Data_Frame)
+class(Data_Frame.Training)
+
+newdataframe<-Data_Frame[c(-2)]
+newdataframe
+
+
+
+
+
+
+
+
+
