@@ -4,3 +4,6 @@ multiarray
 multiarray[2,2,2]
 multiarray[2,2,1]
 dim(multiarray)
+for (x in multiarray){
+  print(x)
+}
