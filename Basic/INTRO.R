@@ -11,3 +11,5 @@ fruits<-c("banana","apple","Orange","mango")
 class(fruits)
 typeof(fruits)
 fruits[-2]
+
+
