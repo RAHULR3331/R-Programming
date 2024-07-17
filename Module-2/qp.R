@@ -4,13 +4,16 @@ Let's go through each question and provide the necessary R code and explanations
 
 1. *Create a data frame with the columns (age, height, weight, gender) and 6 rows. Write the R code to:*
    R
-   # Create the data frame
-   df <- data.frame(
-     age = c(23, 45, 34, 25, 30, 50),
-     height = c(170, 160, 180, 175, 165, 155),
-     weight = c(65, 70, 75, 68, 72, 60),
-     gender = c('M', 'F', 'M', 'F', 'M', 'F')
-   )
+ # Create the data frame
+df <- data.frame(
+  age = c(23, 45, 34, 25, 30, 50),
+  height = c(170, 160, 180, 175, 165, 155),
+  weight = c(65, 70, 75, 68, 72, 60),
+  gender = c('M', 'F', 'M', 'F', 'M', 'F')
+)
+
+# Show the data frame
+df
 
    # 1. Invert gender for all individuals
    df$gender <- ifelse(df$gender == 'M', 'F', 'M')
