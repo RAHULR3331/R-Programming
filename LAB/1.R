@@ -15,3 +15,4 @@ barplot(brand_freq,
         col = "lightblue",
         las = 2)
 
+
